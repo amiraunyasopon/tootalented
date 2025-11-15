@@ -1,9 +1,9 @@
 import "./Navbar.css"
 
-const Navbar = () => {
+const NavBar = () => {
     return (
         <>
         </>
     )
 }
-export default Navbar
+export default NavBar

@@ -1,7 +1,7 @@
 import './App.css'
 import { useRoutes } from 'react-router-dom'
-import Navbar from "./components/Navbar"
 import Landing from "./pages/Landing"
+import NavBar from "./components/NavBar"
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
     ])
     return (
         <>
-            <Navbar />
+            <NavBar />
             <div>
                 {element}
             </div>
