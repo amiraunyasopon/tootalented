@@ -1,8 +1,8 @@
-# Web Development Final Project - *HobbyHub*
+# Web Development Final Project - *Too Talented*
 
 Submitted by: **Amir Aunyasopon**
 
-This web app: **insert description**
+This web app: **A platform for users to share their talent online. Users are able to make, edit, and delete their own posts. Posts are viewable on a landing page, and can be viewed in greater detail by clicking on them**
 
 Time spent: **X** hours spent in total
 
