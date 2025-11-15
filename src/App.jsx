@@ -21,6 +21,10 @@ function App() {
         {
             path: "/post/:id",
             element: <PostDetails />
+        },
+        {
+            path: "/contact",
+            element: <Contact />
         }
     ])
     return (
