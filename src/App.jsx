@@ -1,6 +1,10 @@
 import './App.css'
 import { useRoutes } from 'react-router-dom'
 import Landing from "./pages/Landing"
+import CreatePost from "./pages/CreatePost"
+import EditPost from "./pages/EditPost"
+import PostDetails from "./pages/PostDetails"
+import Contact from "./pages/Contact"
 import Navbar from "./components/Navbar"
 
 function App() {
