@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
 import { supabase } from '../client'
+import { useState, useEffect } from 'react'
 import Post from '../components/Post'
 import "./Landing.css"
 
@@ -28,6 +28,7 @@ const Landing = () => {
                             <Post
                                 key={index}
                                 creationTime={post.created_at}
+                                id={post.id}
                                 title={post.title}
                                 upvotes={post.upvotes}
                             />
