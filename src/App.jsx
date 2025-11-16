@@ -31,6 +31,7 @@ function App() {
             element: <Contact />
         }
     ])
+
     return (
         <>
             <div className="whole-page">

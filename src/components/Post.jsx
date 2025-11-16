@@ -7,7 +7,7 @@ import "./Post.css"
 const Post = (props) => {
     const [upvotes, setUpvotes] = useState(props.upvotes)
 
-    const handleClick = async (e) => {
+    const handleUpvote = async (e) => {
         e.preventDefault()
 
         await supabase
@@ -26,7 +26,7 @@ const Post = (props) => {
                 <h1>{props.title}</h1>
             </Link>
             <p>{formattedCreationTime}</p>
-            <button onClick={handleClick}>{upvotes} upvotes</button>
+            <button onClick={handleUpvote}>{upvotes} upvotes</button>
             <Link to={"edit/" + props.id}>
                 <p>edit</p>
             </Link>
